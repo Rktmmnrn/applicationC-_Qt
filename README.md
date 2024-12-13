@@ -1,1 +1,3 @@
 This is the hardest project that i've done so far
+This is about "GESTION DES MATÉRIELS INFORMATIQUES"
+I'm not good at design so thas why the design is not real tasty but the database work well (not all) ...
