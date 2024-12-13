@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>materiel</class>
+ <widget class="QDialog" name="materiel">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none;
+background: transparent;
+text-align: center;
+border: 2px solid rgb(38, 162, 105);
+border-radius: 20px</string>
+     </property>
+     <property name="tabChangesFocus">
+      <bool>true</bool>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:600; text-decoration: underline;&quot;&gt;Merci de remplir les informations suivantes .&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; text-decoration: underline;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">font-weight: bold;</string>
+       </property>
+       <property name="text">
+        <string>Dernière Intervention :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="dernierEdit">
+       <property name="styleSheet">
+        <string notr="true">background: none;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">font-weight:bold</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;MARQUE :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">font-weight:bold</string>
+       </property>
+       <property name="text">
+        <string>DESIGNATION :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="marqueEdit">
+       <property name="styleSheet">
+        <string notr="true">background: none;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">font-weight:bold</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;ETAT :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QComboBox" name="etatEdit">
+       <item>
+        <property name="text">
+         <string>IMPEC</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ÇA VA ALLER</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PRUDENCE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MEDIOCRE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>INCONNU</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="designationEdit">
+       <item>
+        <property name="text">
+         <string>ECRAN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PORTABLE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CLAVIER</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SOURIS</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>UNITE CENTRALE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>RESEAUX</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CAMERA</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MICRO</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>IMPRIMANTE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALIMENTATION</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>AUTRES</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>100</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QToolButton" name="RETOUR">
+       <property name="styleSheet">
+        <string notr="true">border-radius:8px;
+color:black;
+background-color:rgba(97,198,238,0.979);;
+height:28px;
+width:95px;
+font-weight:bold;</string>
+       </property>
+       <property name="text">
+        <string>ANNULER</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="VALIDER">
+       <property name="styleSheet">
+        <string notr="true">border-radius:8px;
+color: black;
+background-color:rgba(97,198,238,0.979);;
+height:28px;
+width:95px;
+font-weight:bold;
+</string>
+       </property>
+       <property name="text">
+        <string>VALIDER</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

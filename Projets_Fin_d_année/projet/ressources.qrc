@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>172870.jpg</file>
+        <file>../Images/ztJCpBi.jpg</file>
+        <file>../Images/Logo_ENI.jpg</file>
+        <file>../Images/reparationMateriels1.jpeg</file>
+        <file>../Images/reparationMateriels2.jpeg</file>
+        <file>../Images/reparationMateriels3.jpeg</file>
+        <file>../Images/fix-work-repair-system-svgrepo-com.svg</file>
+        <file>../Images/list-1422-svgrepo-com.svg</file>
+        <file>../Images/details-block-svgrepo-com.svg</file>
+        <file>../Images/logout-svgrepo-com.svg</file>
+        <file>../Images/system-shutdown-panel-svgrepo-com.svg</file>
+    </qresource>
+</RCC>

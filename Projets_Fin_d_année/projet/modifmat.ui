@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>modifMat</class>
+ <widget class="QDialog" name="modifMat">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>322</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QLabel" name="titreModif">
+     <property name="styleSheet">
+      <string notr="true">padding: 10px;
+border: 2px solid rgb(38, 162, 105);
+border-radius: 10px;
+color: black</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; text-decoration: underline;&quot;&gt;VOUS VOULEZ MODIFIER QUELQUE CHOSE !&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QFormLayout" name="formLayout_3">
+     <property name="labelAlignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="horizontalSpacing">
+      <number>6</number>
+     </property>
+     <property name="verticalSpacing">
+      <number>6</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>DESIGNATION :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>MARQUE :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="marqueModif"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>ÉTAT :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>DERNIER INTERVENTION :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="intModif"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="etatModif">
+       <item>
+        <property name="text">
+         <string>IMPEC</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ÇA VA ALLER</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PRUDENCE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MEDIOCRE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>INCONNU</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="typeModif">
+       <item>
+        <property name="text">
+         <string>ECRAN</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PORTABLE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CLAVIER</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>SOURIS</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>UNITE CENTRALE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>RESEAUX</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CAMERA</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MICRO</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>IMPRIMANTE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALIMENTATION</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>AUTRES</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeType">
+      <enum>QSizePolicy::Fixed</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QPushButton" name="annulerModif">
+       <property name="text">
+        <string>ANNULER</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>250</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="modif">
+       <property name="text">
+        <string>MODIFIER</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
